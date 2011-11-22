@@ -7,6 +7,8 @@ require "action_mailer/railtie"
 require "active_resource/railtie"
 require "sprockets/railtie"
 # require "rails/test_unit/railtie"
+require 'flash_s3'
+require 'jquery-rails'
 
 if defined?(Bundler)
   ENV['BUNDLE_GEMFILE'] = File.join(Dir.pwd, 'Gemfile')
