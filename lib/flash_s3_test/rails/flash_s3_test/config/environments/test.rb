@@ -36,4 +36,6 @@ FlashS3Test::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  config.flash_s3.bucket = 'bas'
 end
