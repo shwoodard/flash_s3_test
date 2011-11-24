@@ -27,4 +27,8 @@ FlashS3Test::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  config.flash_s3.bucket = 'bas'
+  config.flash_s3.s3_access_key_id = 'foo'
+  config.flash_s3.s3_secret_access_key = 'fubar'
 end

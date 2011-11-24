@@ -38,4 +38,6 @@ FlashS3Test::Application.configure do
   config.active_support.deprecation = :stderr
 
   config.flash_s3.bucket = 'bas'
+  config.flash_s3.s3_access_key_id = 'foo'
+  config.flash_s3.s3_secret_access_key = 'fubar'
 end
